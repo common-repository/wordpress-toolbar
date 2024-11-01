@@ -1,0 +1,130 @@
+/*
+  Plugin Name: WordPress Toolbar
+  Version: 2.2
+  Plugin URI: http://abhinavsingh.com/blog/2009/02/wordpress-toolbar-plugin
+  Description: WordPress Toolbar is a unique plugin which automatically enables a toolbar for all outgoing links from your blog post. It also supports tinyurl and add social icons to blog post.
+  Author: Abhinav Singh
+  Author URI: http://abhinavsingh.com/blog
+*/
+#wordpress-toolbar-administration div, #wordpress-toolbar-administration dl, 
+#wordpress-toolbar-administration dt, #wordpress-toolbar-administration dd, 
+#wordpress-toolbar-administration ul, #wordpress-toolbar-administration ol, 
+#wordpress-toolbar-administration li, #wordpress-toolbar-administration h1, 
+#wordpress-toolbar-administration h2, #wordpress-toolbar-administration h3, 
+#wordpress-toolbar-administration h4, #wordpress-toolbar-administration h5, 
+#wordpress-toolbar-administration h6, #wordpress-toolbar-administration pre,
+#wordpress-toolbar-administration code, #wordpress-toolbar-administration form, 
+#wordpress-toolbar-administration fieldset, #wordpress-toolbar-administration legend, 
+#wordpress-toolbar-administration input, #wordpress-toolbar-administration textarea, 
+#wordpress-toolbar-administration p, #wordpress-toolbar-administration blockquote, 
+#wordpress-toolbar-administration th, #wordpress-toolbar-administration td {
+  margin:0;
+  padding:0;
+}
+#wordpress-toolbar-administration {
+  padding:10px;
+}
+#wordpress-toolbar-administration h2 {
+  font-size:20px;
+  color:#444444;
+  border-top:2px solid #000000;
+  border-bottom:2px solid #000000;
+  padding:5px 0px;
+}
+#wordpress-toolbar-administration form {
+  padding:20px;
+}
+#wordpress-toolbar-administration .top-menu {
+  border-bottom:1px solid #E3E3E3;
+  padding:5px 10px;
+  padding-bottom:0px;
+  margin-bottom:20px;
+}
+#wordpress-toolbar-administration .top-menu-items {
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  
+  float:left;
+  background:#FFFFFF;
+  border-color:#D8DFEA #D8DFEA #E3E3E3;
+  border-style:solid;
+  border-width:1px;
+  margin:2px 5px -1px 0;
+  padding:4px 9px;
+  position:relative;
+}
+#wordpress-toolbar-administration .active {
+  background:#F9F9F9;
+  border-bottom:1px solid #F9F9F9;
+}
+#wordpress-toolbar-administration .top-menu-items a {
+  text-decoration:none;
+  color:#333333;
+}
+#wordpress-toolbar-administration td.left {
+  text-align:right;
+  vertical-align:top;
+  width:200px;
+}
+#wordpress-toolbar-administration td.left p {
+  font-size:15px;
+  font-weight:bold;
+}
+#wordpress-toolbar-administration td.right {
+  text-align:left;
+  padding-left:20px;
+}
+#wordpress-toolbar-administration td.right textarea {
+  width:300px;
+  height:100px;
+}
+#wordpress-toolbar-administration .seperator {
+  padding:10px 0px;
+}
+#wordpress-toolbar-administration .socialset {
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+}
+#wordpress-toolbar-administration .socialset, #wordpress-toolbar-administration .skins,
+#wordpress-toolbar-administration .custom {
+  float:left;
+  padding-right:10px;
+  padding-bottom:10px;
+  width:140px;
+}
+#wordpress-toolbar-administration .socialset label, #wordpress-toolbar-administration .skins label, 
+#wordpress-toolbar-administration .custom label {
+  font-size:13px;
+  margin-left:3px;
+}
+#wordpress-toolbar-administration .ssactive {
+  background:#3366CC;
+  color:#FFFFFF;
+  font-size:10px;
+  height:20px;
+  list-style-type:none;
+  margin:2px 2px 0 0;
+  padding:4px;
+  text-align:left;
+  width:135px;
+  overflow:hidden;
+}
+#wordpress-toolbar-administration .ssinactive {
+  background:#DDDDDD;
+  font-size:10px;
+  height:20px;
+  list-style-type:none;
+  margin:2px 2px 0 0;
+  padding:4px;
+  text-align:left;
+  width:135px;
+  overflow:hidden;
+}
+#wordpress-toolbar-administration .submit {
+  margin-top:10px;
+}
+#wordpress-toolbar-administration .submit input {
+  padding:3px 9px !important;
+}
